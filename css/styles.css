@@ -5,7 +5,7 @@
 }
 
 [data-theme=dark] {
-  --p-color: $e1e1ff;
+  --p-color: #e1e1ff;
   --bg-color: #24243b;
   --h1-color: #96a6d1;
 }
@@ -56,14 +56,16 @@ p {
 }
 
 .slider {
-  background-color: rgb(180, 194, 206);
+  background-color: white;
+  background-image: url("https://i.postimg.cc/857jHw2q/Screenshot-2020-04-16-at-1-07-06-PM.png");
+  background-size: 260px;
+  background-repeat: no-repeat;
   bottom: 0;
   cursor: pointer;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
-  transition: 0.9s;
 }
 
 .slider:before {
@@ -78,7 +80,11 @@ p {
 }
 
 input:checked + .slider {
-  background-color: #f80d7b;
+  background-image: url("https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png");
+  background-position: left;
+  background-size: 260px;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 input:checked + .slider:before {
@@ -91,4 +97,7 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+  background-color: #f7ca33;
 }
+
+
