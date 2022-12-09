@@ -93,6 +93,7 @@ input:checked + .slider:before {
 
 .slider.round {
   border-radius: 80px;
+  box-shadow: 1px 1px 5px 5px yellow;
 }
 
 .slider.round:before {
