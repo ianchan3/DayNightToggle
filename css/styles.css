@@ -84,7 +84,6 @@ input:checked + .slider {
   background-position: left;
   background-size: 260px;
   background-repeat: no-repeat;
-  background-color: black;
 }
 
 input:checked + .slider:before {
